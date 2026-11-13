@@ -1,26 +1,25 @@
-# This program asks for the user's name and age.
-# It checks the age and displays a message.
+# It checks how fast they completed a 5 km run.
 
 name = input("What is your name? ")
-age = input("How old are you? ")
+time = input("How many minutes did you take to run 5 km? ")
 
-if age.isdigit():
-    age = int(age)
-    if age >= 18:
-        print(name, "is", age, "years old and is an adult.")
+if time.isdigit():
+    time = int(time)
+    if time <= 30:
+        print(name, "finished 5 km in", time, "minutes. Great job!")
     else:
-        print(name, "is", age, "years old and is a minor.")
+        print(name, "finished 5 km in", time, "minutes. Keep practicing!")
 else:
-    print("Please enter a valid age.")
+    print("Please enter a valid number.")
 
 # Example run 1
-# Inputs: Daniel, 20
-# Output: Alex is 20 years old and is an adult.
+# Inputs: Alex, 25
+# Output: Alex finished 5 km in 25 minutes. Great job!
 
 # Example run 2
-# Inputs: Sam, 12
-# Output: Sam is 12 years old and is a minor.
+# Inputs: Sam, 35
+# Output: Sam finished 5 km in 35 minutes. Keep practicing!
 
 # Example run 3
-# Inputs: Lily, 35.5
-# Output: Please enter a valid age.
+# Inputs: Alex, abc
+# Output: Please enter a valid number.

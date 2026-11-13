@@ -1,6 +1,5 @@
 Code the Dream – Python Intro Pre-Work
 
-
 Hi! I'm Linfeng Chen, a former JavaScript developer with experience in web development.
 
 I have worked with JavaScript, HTML, CSS, React, MongoDB, and SQL. I'm now interested in learning Python and expanding my programming skills.

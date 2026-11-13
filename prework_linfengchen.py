@@ -20,3 +20,7 @@ else:
 # Example run 2
 # Inputs: Sam, 12
 # Output: Sam is 12 years old and is a minor.
+
+# Example run 3
+# Inputs: Lily, 35.5
+# Output: Please enter a valid age.

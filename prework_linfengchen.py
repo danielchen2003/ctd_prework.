@@ -1,3 +1,4 @@
+# This program asks for the user's name and running time.
 # It checks how fast they completed a 5 km run.
 
 name = input("What is your name? ")
